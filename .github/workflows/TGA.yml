@@ -3,7 +3,7 @@ name: ADSS
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '* */12 * * *'
 jobs:
   ADS:
     runs-on: windows-2022
